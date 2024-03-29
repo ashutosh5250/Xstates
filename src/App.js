@@ -134,7 +134,7 @@ function App() {
       </div>
       {selectedCity !== "Select City" && (
         <div className="selected-location">
-          <h5 style={{ display: "inline" }}>You Selected </h5>
+          <h5 style={{ display: "inline" }}>You selected </h5>
           <h3 style={{ display: "inline" }}>{selectedCity}, </h3>
           <p style={{ display: "inline" }}>
             {selectedState}, {selectedCountry}
