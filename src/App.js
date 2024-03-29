@@ -133,11 +133,9 @@ function App() {
         </select>
       </div>
       {selectedCity !== "Select City" && (
-        <div className="selected-location">
-          <p>
-            You Selected {selectedCity}, {selectedState}, {selectedCountry}
-          </p>
-        </div>
+        <p className="selected-location">
+          You Selected {selectedCity}, {selectedState}, {selectedCountry}
+        </p>
       )}
       {error && (
         <div className="error-message">
