@@ -22,6 +22,7 @@
   margin-top: 15px;
 }
 .error-message{
+  display: inline;
   position: fixed;
   left:30%;
 }
