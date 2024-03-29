@@ -18,7 +18,7 @@
 }
 .selected-location{
   position: fixed;
-  left:30%;
+  left:40%;
   margin-top: 15px;
 }
 .error-message{
